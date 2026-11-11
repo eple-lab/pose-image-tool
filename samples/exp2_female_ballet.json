@@ -1,0 +1,15 @@
+{
+ "id": "exp2_female_ballet",
+ "model": "fmail-model1.png",
+ "pose": "fmail-ballet.png",
+ "pose_mode": "skeleton",
+ "prompt": "The person from image 1 strikes exactly the same full-body pose as the stick-figure skeleton in image 2. Keep the face, hairstyle and outfit of the person in image 1. Full-body shot, the whole figure visible from head to feet, plain light grey studio background, soft even lighting. Photorealistic fashion photography.",
+ "seed": 42,
+ "cfg": 1.0,
+ "steps": 4,
+ "size": "592x688",
+ "unet": "flux-2-klein-4b-Q4_K_M.gguf",
+ "text_encoder": "Qwen3-4B-Q4_K_M.gguf",
+ "seconds": 13.5,
+ "note": "실험2: 여자 모델 × 발레"
+}

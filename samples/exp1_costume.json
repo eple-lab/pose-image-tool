@@ -1,0 +1,15 @@
+{
+ "id": "exp1_costume",
+ "model": "mail-model1.png",
+ "pose": "fmail-ballet.png",
+ "pose_mode": "skeleton",
+ "prompt": "The person from image 1 strikes exactly the same full-body pose as the stick-figure skeleton in image 2. Keep the face and hairstyle of the person in image 1, but dress them in a fitted white ballet costume with white tights and ballet slippers. Full-body shot, plain light grey studio background, soft even lighting. Photorealistic fashion photography.",
+ "seed": 42,
+ "cfg": 1.0,
+ "steps": 4,
+ "size": "592x688",
+ "unet": "flux-2-klein-4b-Q4_K_M.gguf",
+ "text_encoder": "Qwen3-4B-Q4_K_M.gguf",
+ "seconds": 12.2,
+ "note": "실험1 옷: 발레복"
+}
