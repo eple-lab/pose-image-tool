@@ -1,0 +1,12 @@
+# 개인 설정 (MCP 대기 시간 등) — 공개 저장소에 올리지 않음
+.claude/settings.local.json
+.claude/handoff.md
+
+# 파이썬/노트북 임시 파일
+__pycache__/
+.ipynb_checkpoints/
+
+# 모델 가중치는 저장소에 넣지 않음 (노트에서 다운로드)
+*.gguf
+*.safetensors
+*.onnx
